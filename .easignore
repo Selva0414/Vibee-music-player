@@ -1,0 +1,15 @@
+# EAS ignore files
+node_modules/
+.expo/
+npm-debug.log
+yarn-error.log
+android_old_build_fail/
+android_backup/
+dist/
+
+# Android build artifacts
+android/app/build/
+android/.gradle/
+android/build/
+
+

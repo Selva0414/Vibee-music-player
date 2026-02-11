@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Vibee",
+    "slug": "vibee-mobile",
+    "version": "1.0.9",
+    "sdkVersion": "48.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/vibee-icon.png",
+    "splash": {
+      "image": "./assets/vibee-splash-padded.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.vibee",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/vibee-splash-logo.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.yourcompany.vibee",
+      "permissions": [
+        "WAKE_LOCK",
+        "FOREGROUND_SERVICE"
+      ]
+    },
+    "plugins": [
+      "expo-splash-screen"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5fd265d1-9d9e-4ea1-9008-10381adcd805"
+      }
+    }
+  }
+}
